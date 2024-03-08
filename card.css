@@ -1,0 +1,40 @@
+
+.attraction {
+    width: auto;
+    height: 145px;
+}
+
+.card{
+    border: solid 1px black;
+    width: 250px;
+    height: 295px;
+    margin: 3px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.page{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.texte{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    height : 30px ;
+    background-color: red;
+    
+}
+.description{
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 30px;
+    
+}
