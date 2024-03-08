@@ -2,6 +2,7 @@
 .attraction {
     width: auto;
     height: 145px;
+    padding-bottom: 20px;
 }
 
 .card{
@@ -35,6 +36,12 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 10px;
-    height: 30px;
+    height: 60px;
     
+}
+
+.message_fav {
+    font-weight: bold; 
+    color : green ;
+    border : solid 2px green ;
 }

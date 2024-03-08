@@ -2,3 +2,5 @@ Id_utilisateur,Nom,Prenom,Identifiant,Mot_de_passe,Admin
 65e855b37ca68,root,root,root,$2y$10$oMTT8sJKi1SH4uhsiTzQFuIKumxZ1dDMPV.KtoASJ99oskDUYYDg6,True
 65e855e7eaea1,allan,allan,allan,$2y$10$oSPvV0xVndTf4UKRCjw2m.qr3nEwlY3pZfjmYVxiusQGgUQbWyCqS,False
 65ead980c5be0,coucou1,coucou2,coucou,$2y$10$PJWqzB2q1yUZ1aHw/LkOFumEnHLLBZY5zhRuJo.NH4xYaBhOt2R/q,False
+65eb607b13801,Bricout,Chris,totophe,$2y$10$LhhyhRLvKrxzcQbeT/2mX.snq5qYwxKA6clSsIoZAcgOfGyKvCQ1O,False
+65eb60e15cfa7,allan,warner,allanlebestdu75,$2y$10$.HBZ/A.Bo/rvjWoWO4qIIunj9X2Aa/uSnuKlik8t6expc4yelIYV.,False

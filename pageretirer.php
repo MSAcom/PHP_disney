@@ -67,27 +67,9 @@ $id_utilisateur = $_SESSION['id_utilisateur'];
             ?>
             <div class="tableau">
                 <div class="card">
-                    <div class='texte'><?php echo $attraction_data[$col_nom]; ?>
-                    <style>
-                            .texte {
-                                height : 30px ;
-                            }
-                    </style>
-                    </div>
-                    <div class='image'><img class='attraction' src='<?php echo $attraction_data[$col_image]; ?>'>
-                    <br>
-                    <style>
-                            .attraction {
-                                height : 145px ;
-                            }
-                    </style></div>
-                    <div class='description'><?php echo $attraction_data[$col_description]; ?>
-                    <style>
-                            .description {
-                                height : 80px ;
-                            }
-                    </style> 
-                    </div>
+                    <div class='texte'><?php echo $attraction_data[$col_nom]; ?></div>
+                    <div class='image'><img class='attraction' src='<?php echo $attraction_data[$col_image]; ?>'></div>
+                    <div class='description'><?php echo $attraction_data[$col_description]; ?></div>
                     <div>
                     <form action="retirerattractions.php" method="post"> <!--ce form renvoie vers retirerattraction.php afin de pouvoir à présent retirer des attraction-->
                         <input type="hidden" name="id" value="<?php echo $attraction_data[$col_id]; ?>"><!-- <input type="hidden":stockent les informations de l'attraction dans des champs cachés, afin qu'elles soient envoyées avec le formulaire-->

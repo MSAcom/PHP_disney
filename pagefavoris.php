@@ -58,26 +58,10 @@ $id_utilisateur = $_SESSION['id_utilisateur'];
             ?>
             <div class="tableau">
                 <div class="card"> <!-- on crée des cards pour chaque favoris -->
-                    <div class='texte'><?php echo $data[$col_nom]; ?>
-                    <style>
-                            .texte {
-                                height : 30px ;
-                            }
-                    </style>
-                    </div>
-                    <div class='image'><img class='attraction' src='<?php echo $data[$col_image]; ?>'>
-                    <style>
-                            .attraction {
-                                height : 145px ;
-                            }
-                    </style>
-                     </div>
+                    <div class='texte'><?php echo $data[$col_nom]; ?></div>
+                    <div class='image'><img class='attraction' src='<?php echo $data[$col_image]; ?>'> </div>
                     <div class='description'><?php echo $data[$col_description]; ?>
-                    <style>
-                            .description {
-                                height : 80px ;
-                            }
-                    </style>
+
                     </div>
                     <!--<div class='texte'> Cette attraction à déjà été mise en favoris par personne(s)</div> Nous voulions mettre un compteur dans les favoris-->
                     <form action="retirerfavoris.php" method="post"> <!--ce form caché renvoie vers retirerfavoris.php afin de pouvoir à présent retirer des favoris-->

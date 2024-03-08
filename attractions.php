@@ -67,37 +67,11 @@ $id_utilisateur = $_SESSION['id_utilisateur'];
 
             <div class="tableau">
                 <div class="card">
-                    <div class='texte'><?php echo $attraction_data[$col_nom]; ?>
-                    <style> /* css */
-                            .texte {
-                                height : 30px ;
-                            }
-                    </style>
-                    </div>
-                    <div class='image'><img class='attraction' src='<?php echo $attraction_data[$col_image]; ?>'>
-                    <br>
-                    <style>
-                            .attraction {
-                                height : 145px ;
-                            }
-                    </style></div>
-                    <div class='description'><?php echo $attraction_data[$col_description]; ?>
-                    <style>
-                            .description {
-                                height : 80px ;
-                            }
-                    </style>
-                    </div>
+                    <div class='texte'><?php echo $attraction_data[$col_nom]; ?></div>
+                    <div class='image'><img class='attraction' src='<?php echo $attraction_data[$col_image]; ?>'></div>
+                    <div class='description'><?php echo $attraction_data[$col_description]; ?></div>
                     <?php if ($already_in_favorites) : ?>
-                        <div class='message_fav'>Déjà dans les favoris
-                        <style>
-                            .message_fav {
-                                font-weight: bold; 
-                                color : green ;
-                                border : solid 2px green ;
-                            }
-                         </style>
-                        </div>
+                        <div class='message_fav'>Déjà dans les favoris</div>
                     <?php else : ?> 
                         <form action="favoris.php" method="post"> <!--formulaire caché afin de récupérer les infos de l'attraction sur laquelle on clique-->
                             <input type="hidden" name="id" value="<?php echo $attraction_data[$col_id]; ?>">

@@ -55,27 +55,9 @@ $id_utilisateur = $_SESSION['id_utilisateur'];
             <div class="tableau">
                 <div class="card"> <!--pour chaque carte-->
                     <div class='texte'><?php echo $attraction_data[$col_nom]; ?> <!--on affiche titre de l'attraction-->
-                    <style>
-                            .texte {
-                                height : 30px ;
-                            }
-                    </style>
                     </div>
-                    <div class='image'><img class='attraction' src='<?php echo $attraction_data[$col_image]; ?>'> <!--on affiche image de l'attraction-->
-                    <br>
-                    <style>
-                            .attraction {
-                                height : 145px ;
-                                padding-bottom : 20px ; 
-                                
-                            }
-                    </style></div>
+                    <div class='image'><img class='attraction' src='<?php echo $attraction_data[$col_image]; ?>'> <!--on affiche image de l'attraction--></div>
                     <div class='description'><?php echo $attraction_data[$col_description]; ?> <!--on affiche description de l'attraction-->
-                    <style>
-                            .description {
-                                height : 80px ;
-                            }
-                    </style>
                     </div>
                 </div>
             </div>
