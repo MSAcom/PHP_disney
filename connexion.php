@@ -15,7 +15,7 @@ if (isset($_POST['identifiant']) && isset($_POST['mot_de_passe'])) { //isset per
                     $_SESSION['admin'] = $line[5];
                     fclose($file);
                     if ($_SESSION['admin']=== "True") {
-                        header('Location: csvhtml.php');
+                        header('Location: attractions_admin.php');
                     }
                     else {
                     header('Location: acceuil.php');} //redirection si tout est bon
